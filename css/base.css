@@ -1,4 +1,4 @@
-﻿body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, form,fieldset,input,textarea,p,blockquote,th,td { padding: 0; margin: 0; } 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, form,fieldset,input,textarea,p,blockquote,th,td { padding: 0; margin: 0; } 
 table { border-collapse: collapse; border-spacing: 0; } 
 fieldset,img { border: 0; } 
 address,caption,cite,code,dfn,em,strong,th,var { font-weight: normal; font-style: normal; } 
@@ -33,7 +33,7 @@ h2 a.toplink_weibo{display:block;width:130px;height:20px; top:0; left:0; positio
 h2 a.toplink_tmall{display:block;width:140px;height:20px; top:0; left:130px; position:absolute;}
 #nav{height:31px;padding-left:182px;position:relative;z-index:2;}
 #nav li{float:left;width:120px;height:31px;}
-#nav li a{float:left;width:119px;height:31px;text-align:center;font:11px/31px 微软雅黑;text-transform:uppercase;color:#e0e0e0;}
+#nav li a{float:left;width:119px;height:31px;text-align:center;font: 12px/31px 微软雅黑;text-transform:uppercase;color:#e0e0e0;}
 #nav li a:hover{background:url(../img/hover.png) no-repeat;}
 #nav li.current a{background:url(../img/hover.png) no-repeat;}
 #nav li span{float:right;width:1px;height:31px;background:url(../img/border.jpg) no-repeat;text-indent:-9999px;}
@@ -47,7 +47,7 @@ h2 a.toplink_tmall{display:block;width:140px;height:20px; top:0; left:130px; pos
 #navcyt li.current a{background:url(../img/hover.png) no-repeat;}
 #navcyt li span{float:right;width:1px;height:31px;background:url(../img/border.jpg) no-repeat;text-indent:-9999px;}
 .subnav{float:left;width:122px;height:190px;position:relative;margin-right:4px;}
-.subnav dt{color:#fff;font:14px/18px 宋体;margin-top:8px;margin-bottom:10px;}
+.subnav dt{color:#fff;font: 12px/18px 宋体;margin-top:8px;margin-bottom:10px;font-weight:600;}
 .subnav dd a{color:#777;font:12px/15px 宋体;}
 .subnav dd a:hover{color:#c30;}
 .subnav .sb-img{width:114px;height:46px}
@@ -310,12 +310,8 @@ a.recuitback{ float:right; padding:18px 120px 0 0;}
 .coloroprate{width:146px;height:36px;background:#000;z-index:9;position:absolute;top:-36px;left:3px}
 .coloroprate li{width:40px;height:22px;float:left;margin:0 1px;cursor:pointer;}
 .detailclose{width:100%;height:16px;cursor:pointer;background:url(../img/coloricon1.png) no-repeat right 0;}
-.colorname{font-size:12px;font-family:"Microsoft YaHei";color:#fff;text-indent:10px;}
-.colortype{font-size:11px;font-family:"Microsoft YaHei";color:#fff;text-indent:10px;}
 .colortype em{font-size:14px;margin-right:3px;}
 .colortype span{margin-left:5px;}
-.colorbuttons{width:100%;height:28px;margin-top:4px;}
-button{display:block;float:left;margin-right:2px;width:68px;font-size:12px;cursor:pointer;padding:1px 3px;height:24px;}
 .colorfooter{position:fixed;bottom:0;}
 
 .colormask{width:100%;position:absolute;z-index:10001;top:0;left:0;background:#000;opacity:0.5;filter:alpha(opacity=50);}
