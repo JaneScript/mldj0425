@@ -1,0 +1,82 @@
+html,body{-webkit-text-size-adjust:none;}
+#content{background:url(../img/exchange1.jpg) no-repeat;height:655px;}
+#page li{width:255px;height:655px;background-color:#0a0000;opacity:0.7;filter:alpha(opacity=70);float:left;margin-right:1px;color:#fff;overflow:hidden;position:relative;}
+#page .small{position:absolute;left:0px;top:0px;width:32px;height:655px;text-align:center;color:#fff;font:25px/655px arial;display:none;}
+#page li .li-left{width:221px;height:655px;float:left;}
+#page li strong{font-size:65px;display:block;padding:285px 0 0 30px;}
+#page li .caption{display:block;font:15px/20px 微软雅黑;padding-left:20px;}
+#page li .title{padding-left:20px;margin-top:10px;display:none;color:#433e3e;font:14px/18px 宋体;}
+#page li .li-right{width:645px;height:655px;float:left;position:relative;}
+.exslider{padding-top:25px;width:645px;height:630px;overflow:hidden;}
+.img{height:630px;width:645px;}
+.img1{width:100%;height:478px;margin-top:40px;}
+.intro{font:12px/18px 宋体;width:645px;height:80px;position:absolute;top:575px;left:0;}
+.flip{width:645px;height:40px;background:#3e3e31;position:absolute;left:0px;top:503px;}
+.flip-left{float:left;font:35px/40px arial;width:48px;height:40px;}
+.flip-right{float:right;width:43px;}
+.flip-right span{margin-right:5px;}
+.pic-title{float:left;line-height:40px;margin-left:30px;color:#fff;font-family:"Microsoft YaHei";letter-spacing:3px;font-size:16px;font-weight:bold;}
+.up,.down{cursor:pointer;}
+.middle i{background:url(../img/icons.png) no-repeat -31px 0;width:1px;height:29px;display:inline-block;}
+.up i{background:url(../img/icons.png) no-repeat 0 0;width:15px;height:31px;display:inline-block;}
+.down i{background:url(../img/icons.png) no-repeat -15px 0;width:15px;height:31px;display:inline-block;margin-top:4px;}
+/*新闻面板*/
+.exchangeNewsPanel{width:220px;height:200px;padding-left:20px;margin-top:10px;position:relative;}
+.uparrow{width:18px;height:9px;background:url(../img/icons.png) no-repeat 0 -69px;margin-bottom:8px;}
+.downarrow{width:18px;height:9px;background:url(../img/icons.png) no-repeat 0 -78px;margin-top:8px;}
+.news{width:220px;height:120px;margin-top:0;overflow:hidden;}
+.news div p a{height:20px;line-height:20px;font-size:13px;font-family:"宋体";color:#433E3E;}
+.news div p .currnews{color:#fff;}
+.newsPanel{width:884px;height:522px;background:url(../img/newsbackground.png) no-repeat;position:absolute;z-index:999;top:178px;}
+.titlenews{height:30px;text-align:right;margin-right:10px;margin-top:10px;}
+.mainnews{width:800px;margin:0 auto;font-size:12px;font-family:"微软雅黑";color:#c9bc9c;text-indent:24px;}
+
+/*自定义滚动条*/
+.nano {
+ 
+  position : relative;
+  width: 870px; 
+  height: 450px; 
+  overflow : hidden;
+}
+.nano .content {
+  position      : absolute;
+  overflow      : scroll;
+  overflow-x    : hidden;
+  top           : 0;
+  right         : 0;
+  bottom        : 0;
+  left          : 0;
+  width:870px;
+  height:430px;
+  padding:10px;
+}
+.nano .content:focus {
+  outline: none;
+}
+.nano .content::-webkit-scrollbar {
+  visibility: hidden;
+}
+.has-scrollbar .content::-webkit-scrollbar {
+  visibility: visible;
+}
+.nano > .pane {
+  background : #151819;
+  border:1px solid #5a4e43;
+  position   : absolute;
+  width      : 5px;
+  right		 : 0;
+  top        : 0;
+  bottom     : 0;
+  visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+}
+.nano > .pane > .slider {
+  background: #5a4e43;
+  width      : 3px;
+  position              : relative;
+  margin                : 0 1px;
+}
+.nano:hover > .pane, .pane.active, .pane.flashed {
+  visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+  opacity    : 0.99;
+}

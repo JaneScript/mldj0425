@@ -1,0 +1,20 @@
+1.QQ留言的三个问题，前面2个JS直接覆盖已经解决
+第三个问题计算高度 要调用以下方法
+maire.fansvideo.initHeight($('.pickul'),8,127)
+此方法共3个参数，第一个是颜色面板的dom对象，我color.html中是pickul类；
+第二个参数 表示插入多少个色块后换行
+第三个参数 是色块所在行的高度
+
+2.灵感来源左右2侧背景图片不更换的问题，JS已经更新，HTML中有一点修改,替换原来的ol标签中的内容
+<ol>
+	<li p='0' id="eyeins0" class="currentli" kind="eyeins" leftpic="inspirationleft.jpg" rightpic="eyeins1.jpg"></li>
+	<li p='1' id="eyeins1" kind="eyeins" leftpic="eyeins0.jpg" rightpic="eyeins2.jpg"></li>
+	<li p='2' id="eyeins2" kind="eyeins" leftpic="eyeins1.jpg" rightpic="eyeins3.jpg"></li>
+	<li p='3' id="eyeins3" kind="eyeins" leftpic="eyeins2.jpg" rightpic=""></li>
+</ol>
+
+li中新增2个自定义属性 用来存放2侧图片的名称leftpic为左侧背景 rightpic为右侧背景
+
+3.客户要求的 单篇资讯的页面，我另外做了一个没有左侧图片的版本给你，infomation2.html
+
+4.新增intro.html 页面 是一段FLASH

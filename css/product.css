@@ -1,0 +1,246 @@
+﻿html,body{-webkit-text-size-adjust:none;}
+#slider{height:527px;overflow:hidden;position:relative;z-index:9;}
+#slider img{width:1024px;height:527px;}
+#prev,#next{position:absolute;top:250px;width:25px;height:49px;cursor:pointer;}
+#prev{left:25px;background:url(../img/icons.png) no-repeat 0 -126px}
+#next{right:25px;background:url(../img/icons.png) no-repeat -25px -126px}
+#link{background:url(../img/linkbg.jpg) repeat-x;height:128px;width:1024px;}
+#link ul{padding-left:43px;}
+#link li{float:left;padding-top:41px;margin-right:65px;}
+#link .bd{padding-top:0px;margin-right:32px;}
+#link .porlinkheader1{height:20px;font:16px/20px "Microsoft YaHei";color:#fff;text-align:left;}
+#link .porlinkheader2{height:20px;font:16px/20px "Calibri";color:#fff;text-align:left;}
+#link .l4{width:174px;height:50px;}
+.pro_mxleft{width:72px;height:50px;float:left;}
+.pro_mxright{width:92px;height:40px;float:left;padding:5px 0;margin-left:10px;}
+.pro_left{width:55px;height:50px;float:left;}
+.pro_right{width:81px;height:40px;float:left;padding:5px 0;margin-left:10px;}
+#link .l1{width:146px;height:50px;}
+#link .l1 img{width:55px;height:50px;}
+#link .l2{width:146px;height:50px;}
+#link .l2 img{width:55px;height:50px;}
+#link .l3{width:146px;height:50px;}
+#link .l3 img{width:55px;height:50px;}
+
+/*多米诺*/
+.contenttop{border-bottom:1px solid #575353;position:relative;}
+.contenttop .tab{position:absolute;width:68px;height:20px;text-align:center;cursor:pointer;line-height:20px;}
+.contenttop #tab_color{background:#000;border:1px solid #575353;border-bottom:none;border-bottom:0;bottom:-1px;left:150px;}
+.contenttop #tab_color span{font-size:12px;font-family:"宋体";color:#fff;}
+.contenttop #tab_inspiration{background:#2d2b2b;bottom:0px;left:225px;}
+.contenttop #tab_inspiration span{font-size:12px;font-family:"宋体";color:#717070;}
+.dmncontent_part1{background:url(../img/dmnpart1_bg.jpg) repeat-x;width:1024px;height:674px;border-bottom:1px solid #575353;}
+.dmncontent_part1 .sample_panel{width:964px;height:282px;padding:25px 0 0 60px;}
+.dmncontent_part1 .sample_panel>div{float:left;}
+.dmncontent_part1 .sample_panel #dmn_samplepic{width:332px;height:262px;background:#000;margin-right:12px;}
+.dmncontent_part1 .sample_panel .eyeshadows{width:500px;height:47px;margin:10px 20px;}
+.dmncontent_part1 .sample_panel .eyeshadows li{float:left;margin:0 2px;width:31px;height:47px;cursor:pointer;}
+.dmncontent_part1 .sample_panel .eyeshadows img{width:31px;height:47px;}
+
+.sampleprice{width:223px;height:230px;float:left;padding-top:30px;margin-left:15px;}
+.sampleprice .sampleheader{font-size:12px;font-family:"微软雅黑";color:#fff;}
+.sampleprice input{width:75px;height:16px;background:#fff;color:#000;font-size:12px;font-family:"黑体";line-height:16px;border:0;margin:4px 0;cursor:pointer;}
+.sampleprice #buyrn{margin-top:15px;}
+.dmncontent_part1 .sample_panel .samplebd{width:1px;background:url(../img/sample_bd.jpg) no-repeat;width:1px;height:255px;}
+
+
+.vediopanel{width:924px;height:340px;padding-left:100px;margin-top:40px;}
+.vediopanel>div{float:left;}
+.vediopanel .vediotext{width:300px;height:auto;margin-right:40px;position:relative;}
+.vediopanel .vediotext .vediotitle{margin-top:20px;}
+.vediopanel .vediotext .vediotxt{font-size:12px;font-family:"黑体";color:#727171;width:300px;height:150px;font-weight:600;margin-top:40px;line-height:20px;overflow:hidden;}
+.vediopanel .vedio{width:406px;height:282px;border:1px solid #fff}
+
+#dmn_bd2{width:1024px;height:64px;}
+#dmn_bd2 img{width:1024px;height:64px;}
+.dmncontent_part2{width:1024px;height:auto;padding:1px 0}
+.dmncontent_part2 .dmnp1{font-size:23px;font-family:"黑体";color:#EEDCB3;width:750px;margin:0 auto;height:30px;}
+.dmncontent_part2 ul{width:750px;height:201px;margin:0 auto;}
+.dmncontent_part2 ul .limitimg{width:width:174px;height:201px;float:left;margin-right:12px;}
+.dmncontent_part2 #courage{width:750px;height:218px;margin:0 auto;}
+.dmncontent_part2 #courage #couragepic{width:193px;height:217px;float:left;}
+.dmncontent_part2 #courage #couragetxt{float:left;margin-top:55px;}
+.couragetitle{font-size:20px;font-family:"黑体";color:#fff;margin:10px 0;}
+.steps{font-size:12px;font-family:"微软雅黑";color:#fff;}
+
+.suggestion{width:750px;height:auto;margin:0 auto;}
+.suggestion p{width:750px;height:50px;font-size:22px;font-family:"黑体";color:#fff;line-height:50px;}
+.suggestion ul{width:750px;height:124px;}
+.suggestion ul li{width:146px;height:122px;overflow:hidden;border:1px solid #575353;float:left;margin-right:30px;border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px;}
+
+#otherproduct{width:420px;height:180px;background:#000;margin:40px auto 20px;padding:1px;}
+#otherproduct ul{width:396px;height:180px;margin:10px auto 0;}
+#otherproduct li{float:left;}
+#otherproduct li .p1{font-size:12px;font-family:"微软雅黑";color:#fff;text-align:center;}
+#otherproduct li .p2{font-size:10px;font-family:Arial;color:#fff;text-align:center;}
+
+#footer_product{width:100%;height:32px;background:#000;}
+
+/*眼线笔产品页面*/
+.eyecontent_part1{background:url(../img/dmnpart1_bg.jpg) repeat-x;width:1024px;height:580px;border-bottom:1px solid #575353;}
+.eyecontent_part1 .sample_panel{width:964px;height:282px;padding:25px 0 0 60px;}
+.eyecontent_part1 .sample_panel>div{float:left;}
+.eyecontent_part1 .sample_panel #eye_samplepic{width:332px;height:262px;background:url(../img/eye_sample.png) no-repeat 0 0;margin-right:12px;}
+.eyecontent_part1 .sample_panel .samplebd{width:1px;background:url(../img/sample_bd.jpg) no-repeat;width:1px;height:255px;}
+.eyecontent_part1 .vediopanel{width:924px;height:300px;padding-left:100px;margin-top:0;}
+
+
+#eye_samples{margin-left:30px;padding-top:20px;}
+#eyesteps{width:425px;height:90px;}
+#eyesteps ul{width:100%;height:81px;}
+#eyesteps ul li{width:116px;height:81px;float:left;}
+#eyesteps ul li img{width:116px;height:81px;}
+#eye_bd2{width:1024px;height:62px;}
+#eye_bd2 img{width:1024px;height:62px;}
+.eyecontent_part1 .sample_panel{padding-top:0;height:262px;}
+.eyecontent_part2{width:1024px;height:417px;}
+
+
+
+/*唇膏产品*/
+.navbg{width:100%;height:31px;background:url(../img/navbg.jpg) repeat-x;}
+.product1content{width:100%;background:#141400;}
+.suggestion ul img{width:146px;height:122px;display:block;}
+.makeupstep{width:924px;padding-left:100px;}
+.product1header1{height:60px;clear:both;font:18px/60px "Microsoft YaHei";color:#CA1B1E;}
+.product1header1 em{margin-left:10px;font:17px/60px "Calibri";}
+.makeupsteptext{width:600px;font:12px/18px "Microsoft YaHei";color:#717071;margin:15px 0;}
+.moverstep{width:924px;padding-left:100px;}
+.constituents{width:924px;padding-left:100px;height:}
+.constituentsul{width:100%;height:205px;}
+.constituentsul li{height:100%;float:left;width:110px;padding:10px 15px;}
+.constituenticon{width:85px;height:145px;margin:0 auto;}
+.constituenticon img{width:100%;height:100%;}
+.constituenname{width:100%;height:30px;font:16px/30px "Microsoft YaHei";color:#CA1B1E;border-bottom:1px solid #CA1B1E;text-align:center;}
+.proimg{width:144px;height:260px;float:left;}
+.proimg img{width:100%;height:100%;}
+.product1samplename1{font:22px/26px "Microsoft YaHei";color:#CA1B1E;text-decoration:underline;height:26px;}
+.product1samplename2{color:#a0a0a0;height:18px;font:11px/18px "Calibri"; }
+.mt20{margin-top:20px;}
+.product1videopanel{height:300px;width:400px;float:left;}
+.product1videoplay{width:398px;height:278px;border:1px solid #fff;background:#000;}
+.product1sampletext{width:800px;padding-left:100px;margin:20px;}
+.product1text{font:15px/22px "Microsoft YaHei";color:#9FA0A0;}
+.videopickul{height:20px;width:100%;}
+.videopickul li{float:left;border-right:1px solid #8c8c8c;width:20px;text-indent:6px;cursor:pointer;color:#fff;}
+
+
+
+.lipcontent_part1{width:1024px;padding-top:55px;}
+.lipcontent_part1 .sample_panel{width:924px;height:300px;padding:0 0 0 100px;}
+.lipcontent_part1 .sample_panel>div{float:left;}
+.lipcontent_part1 .sample_panel #eye_samplepic{width:382px;height:270px;padding-top:30px;margin-right:30px;}
+.lipcontent_part1 .sample_panel .samplebd{width:1px;background:url(../img/sample_bd.jpg) no-repeat;width:1px;height:255px;}
+.lipcontent_part1 .vediopanel{width:924px;height:300px;padding-left:100px;margin-top:0;}
+
+.lipcontent_part1 .vediopanel .vediotext{width:300px;height:auto;margin-right:40px;padding-left:40px;position:relative;}
+.lipcontent_part1 .vediopanel .vediotext .vediotitle{margin-top:0;}
+.lipcontent_part1 .vediopanel .vediotext p{font-size:12px;font-family:"黑体";color:#EEDCB3;width:270px;height:150px;font-weight:600;margin-top:40px;line-height:20px;overflow:hidden;}
+.lipcontent_part1 .vediopanel .vedio{width:406px;height:282px;border:1px solid #fff}
+
+#lip_bd2{width:1024px;height:62px;background:#E60012;font:20px/62px "黑体";color:#fff;text-align:center;}
+
+#lip_samples{margin-left:30px;padding-top:20px;}
+#lip_samples table{float:left;}
+#lip_samples .lips{float:left;width:203px;height:176px;}
+#lip_samples .lips img{width:203px;height:176px;}
+#lip_samples table td{width:26px;height:26px;border:#313232 solid 3px;}
+#lip_samples table img{width:26px;height:26px;cursor:pointer;}
+
+.lipcontent_part2{width:1024px;height:417px;}
+
+
+
+
+
+
+
+/*眼线灵感页面*/
+.insbody{background:url(../img/insbody.jpg) repeat-x;width:100%;height:680px;}
+.insbody #content{width:1024px;height:680px;margin:0 auto;}
+.insbody #content #inspanel{width:1024px;height:680px;background:#fff;position:relative;}
+.insbody #contentleft{width:60px;height:680px;background:url(../img/inspirationleft.jpg) repeat-y;float:left;}
+.insbody #contentmiddle{width:902px;height:680px;float:left;overflow:hidden;position:relative;}
+.insbody #contentmiddle ol{width:auto;height:680px;background:#000;}
+.insbody #contentmiddle ol li{width:900px;height:680px;position:relative;float:left;border-left:1px solid #000;border-right:1px solid #000;}
+#eyeins0{background:url(../img/eyeins0.jpg) no-repeat -1px 0;}
+#eyeins1{background:url(../img/eyeins1.jpg) no-repeat -1px 0;}
+#eyeins2{background:url(../img/eyeins2.jpg) no-repeat -1px 0;}
+#eyeins3{background:url(../img/eyeins3.jpg) no-repeat -1px 0;}
+.insbody #contentmiddle .insarticleleft{margin-left:20px;float:left;margin-top:30px;}
+.insbody #contentmiddle .insclose{width:30px;height:30px;position:absolute;top:10px;right:20px;background:url(../img/insclose.png) no-repeat;cursor:pointer;z-index:10;}
+.insbody #contentright{width:62px;height:680px;float:left;background:url(../img/eyeins1.jpg) no-repeat -240px 0;opacity:0.7;}
+.insbody #contentleft i{width:25px;height:49px;display:block;margin:315px auto;background:url(../img/icons.png) no-repeat 0 -126px;cursor:pointer;visibility:hidden;}
+.insbody #contentright i{width:25px;height:49px;display:block;margin:315px auto;background:url(../img/icons.png) no-repeat -25px -126px;cursor:pointer;}
+.insbody .insp1{font-size:42px;font-family:"黑体";color:#fff;width:42px;height:160px;line-height:40px;float:left;margin-left:20px;margin-top:30px;}
+.insbody .insp2{font-size:16px;font-family:"微软雅黑";color:#fff;width:16px;height:600px;line-height:18px;float:left;margin:0 5px;}
+
+.insbody #contentmiddle .insarticleright{margin-left:20px;margin-top:50px;margin-right:20px;float:right;}
+.insbody .insp3{font-size:42px;font-family:"黑体";color:#fff;width:42px;height:160px;line-height:40px;float:right;margin-right:55px;margin-top:50px;}
+.insbody .insp4{font-size:16px;font-family:"微软雅黑";color:#fff;width:16px;height:600px;line-height:18px;float:left;margin:0 5px;}
+
+#insfooter{width:100%;height:32px;background:#000;}
+#insfooter .foot{width:1024px;height:32px;}
+#insfooter li{height:32px;line-height:32px;font-family:"微软雅黑";}
+
+/*唇膏灵感*/
+#lipins0{background:url(../img/lipins0.jpg) no-repeat;}
+#lipins1{background:url(../img/lipins1.jpg) no-repeat;}
+#lipins2{background:url(../img/lipins2.jpg) no-repeat;}
+#lipins3{background:url(../img/lipins3.jpg) no-repeat;}
+.insbody #content #inspanel .rt{width:62px;height:680px;float:left;background:url(../img/lipins1.jpg) no-repeat -200px 0;opacity:0.7;}
+
+
+
+/*玛粉学院*/
+.cc{color:#fff;margin-bottom:10px;}
+.collegebody{background:url(../img/college_bg1.jpg) repeat-x;width:100%;height:1200px;}
+.collegebody #content{width:1024px;height:1200px;margin:0 auto;}
+.text1{font-size:16px;font-family:"黑体";color:#fff;}
+.collegemore{margin-left:460px;color:#fff;font-family:"黑体";}
+#topbg{width:1024px;height:436px;overflow:hidden;position:relative;}
+#topbg img{width:1024px;height:436px;}
+.collegeprev{width:25px;height:49px;background:url(../img/icons.png) no-repeat 0 -126px;position:absolute;top:193px;left:30px;cursor:pointer;}
+.collegenext{width:25px;height:49px;background:url(../img/icons.png) no-repeat -25px -126px;position:absolute;top:193px;right:30px;cursor:pointer;}
+#bg{width:100%;height:764px;background:#000;padding:1px;}
+#bg .content1{width:950px;height:460px;margin:5px auto;}
+#bg .content1 #con1left{float:left;width:650px;height:447px;}
+#bg .content1 #con1right{float:left;width:290px;height:447px;}
+#bg .content1 #con1left>p{width:625px;height:25px;line-height:25px;border-bottom:1px solid rgb(64,64,64);margin-top:15px;}
+#bg .content1 p em{font-size:12px;font-family:Arial;color:#fff;margin-left:10px;}
+#bg .content1 .vtitle{margin:10px 0;width:450px;}
+#bg .content1 .videopanel{width:448px;height:356px;border:1px solid rgb(64,64,64)}
+#bg .content1 .innerleft{float:left;width:450px;height:396px;}
+#bg .content1 .innerright{float:left;margin:40px 0 0 20px;}
+#bg .content1 .innerright dl{width:102px;height:auto;}
+#bg .content1 .innerright dl dt{margin:6px 0;cursor:pointer;}
+#bg .content1 .innerright dl img{width:102px;}
+#bg .content1 .innerright dl p{width:80px;margin:5px auto;font-size:12px;font-family:"黑体";color:#fff;text-align:center;}
+
+#bg .content1 #con1right{margin-left:10px;background:url(../img/college_bg2.png) repeat-x;}
+#bg .content1 #con1right>p{width:250px;height:25px;line-height:25px;border-bottom:1px solid rgb(64,64,64);margin:15px auto 0;}
+#bg .content1 p em{font-size:12px;font-family:Arial;color:#fff;margin-left:10px;}
+#bg .content1 #con1right ul{width:250px;height:310px;margin:40px auto 0;}
+#bg .content1 #con1right ul li{width:250px;height:85px;margin:25px 0;}
+#bg .content1 #con1right ul .imgwarp{float:left;}
+#bg .content1 #con1right ul .litext{float:left;margin-left:15px;width:165px;}
+#bg .content1 #con1right ul .litext .p1{font-size:13px;font-family:"微软雅黑";height:20px;line-height:20px;font-weight:600;}
+#bg .content1 #con1right ul .litext .p2{font-size:12px;font-family:"宋体";color:#fff;line-height:16px;}
+#bg .content1 #con1right ul .litext .p2 a{color:#fff;display:block;width:100%;overflow:hidden;height:16px;}
+#bg .content1 #con1right ul .imgwarp img{width:70px;height:70px;}
+
+#bg .content2{width:950px;height:280px;margin:5px auto;}
+#bg .content2>p{width:100%;height:25px;line-height:25px;border-bottom:1px solid rgb(64,64,64);margin:15px auto 0;}
+#bg .content2 p em{font-size:12px;font-family:Arial;color:#fff;margin-left:10px;}
+#bg .content2 .salong{width:100%;height:160px;font-size:12px;font-family:"黑体";color:#fff;margin-top:30px;line-height:20px;}
+#bg .content2 .salongleft{float:left;width:400px;height:160px;}
+#bg .content2 .salongright{float:left;width:400px;height:160px;margin-left:100px;}
+#bg .content2 .salong .acttop{margin-bottom:10px;width:100%;height:100px;}
+#bg .content2 .salong .actimg{float:left;width:80px;height:80px;}
+#bg .content2 .salong .actimg img{width:80px;height:80px;}
+#bg .content2 .salong .acttext{float:left;margin-left:20px;width:300px;}
+.acttext .salongjoindiv{width:300px;height:20px;}
+.acttext .salongjoindiv p{float:left;width:100%;}
+.acttext .salongjoindiv a{display:block;float:right;}
+.salongjoin{display:block;float:right;}
+#bg .content2 .salong .regist{clear:both;}
